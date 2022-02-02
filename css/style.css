@@ -1,0 +1,37 @@
+footer{
+    background-color: rgb(230, 201, 173);;
+    padding: 32px 8px;
+}
+img{
+    margin: 12px;
+    width: 200px;
+    border: 4px solid darkorange;
+    padding: 12px;
+}
+
+img:nth-child(2n){
+    border: 10px solid;
+}
+img:hover{
+    filter: grayscale();
+    border: groove; 
+ } 
+
+nav li{
+    padding: 12px;
+}
+h1{
+    font-size: 50px;
+    margin: 12px 0;
+    font-weight: bold;
+}
+.active{
+    background-color: rgb(230, 201, 173);
+    font-weight: bold;
+    border: 2px solid black; 
+}
+
+p{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+}
